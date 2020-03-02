@@ -1,0 +1,4 @@
+---- UARTConfig Matches (3 in 3 files) ----
+rt_hw_board_init in board.c (bsp\a_v5007_rt_mqtt_v1.5\drivers) : 	UARTConfig(COM3, 9600, RxBuff3, 100);
+serial_com.c (bsp\a_v5007_rt_mqtt_v1.5\applications) line 122 : void UARTConfig(COM COMx, u32 BaudRate, uint8* RxBuff, uint16 BuffSize)
+serial_com.h (bsp\a_v5007_rt_mqtt_v1.5\applications) line 30 : void UARTConfig(COM COMx, u32 BaudRate, uint8* RxBuff, uint16 BuffSize);

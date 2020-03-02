@@ -1,0 +1,5 @@
+①scons 编译
+②scons --target=mdk5  生产工程文件
+③menuconfig  打开配置管理器
+④pkgs --update 克隆软件包   （每次克隆完软件包需要重新生产工程文件）
+⑤pkgs --upgrade 升级软件包
